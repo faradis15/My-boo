@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Faradis Assagaf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .biodata-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
+            text-align: center;
+            width: 400px;
+            border: 2px solid #3498db;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-botton: 20px;
+            border: 3px solid #3498db
+        }
+
+        .biodata p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .biodata strong {
+            color: #3498db;
+        }
+
+        .biodata ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .biodata ul li {
+            font-size: 16px;
+            margin: 5px 0;
+            color: #2c3e50;
+        }
+
+        h1 {
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="biodata-container">
+        <h1>Biodata Gojo Satoru</h1>
+        <img src="gojo.png" alt="Faradis Assagaf" class="profile-pic">
+        <div class="biodata">
+            <p><strong>Nama:</strong> Gojo Satoru</p>
+            <p><strong>Tanggal lahir:</strong> 7 Desember 1989</p>
+            <p><strong>Warna rambut:</strong> Putih</p>
+            <p><strong>Warna mata:</strong> Biru cerah</p>
+            <p><strong>Tinggi:</strong> 190 cm</p>
+            <p><strong>Profesi:</strong> Guru STM Jujutsu Tokyo Metropolitan, penyihir Jujutsu</p>
+            <p><strong>Seiyuu (pengisi suara):</strong></p>
+            <ul>
+                <li>Yuichi Nakamura (Jepang)</li>
+                <li>Kaiji Tang (Inggris)</li>
+            </ul>
+            <p><strong>Keluarga:</strong> Yuta Okkotsu (saudara jauh)</p>
+        </div>
+    </div>
+</body>
+</html>
