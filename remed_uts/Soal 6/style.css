@@ -1,0 +1,33 @@
+/* Tambahkan styling untuk membuat gambar lingkaran dengan border dan bayangan */
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #ebdbc8;
+    gap: 1rem;
+}
+.home-text {
+    flex: 1 1 17rem;
+}
+.home-img {
+    flex: 1 1 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: animate 3s linear infinite;
+}
+@media (max-width: 600px) {
+    .home-pic img {
+        width: 150%;
+        height: auto;
+    }
+}

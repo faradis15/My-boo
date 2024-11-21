@@ -1,0 +1,30 @@
+/* Tambahkan styling untuk navigasi horizontal dengan efek hover */
+body {
+    margin: 0;
+    padding: 0;
+   
+} 
+nav {
+    background-color: #937777; 
+    padding: 10px; 
+    text-align: center;
+}
+nav a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+nav a:hover {
+   color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+@media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  }

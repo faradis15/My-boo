@@ -1,0 +1,22 @@
+/* Tambahkan styling untuk heading, paragraf, dan list di sini */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+li {
+    padding-bottom: 0.5rem;
+    color: #333;
+}
